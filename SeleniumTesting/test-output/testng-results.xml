@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-07T13:25:37 OMST" name="Default suite" finished-at="2023-12-07T13:25:40 OMST" duration-ms="3228">
+  <suite started-at="2023-12-07T13:31:35 OMST" name="Default suite" finished-at="2023-12-07T13:31:39 OMST" duration-ms="3626">
     <groups>
     </groups>
-    <test started-at="2023-12-07T13:25:37 OMST" name="Default test" finished-at="2023-12-07T13:25:40 OMST" duration-ms="3228">
+    <test started-at="2023-12-07T13:31:35 OMST" name="Default test" finished-at="2023-12-07T13:31:39 OMST" duration-ms="3626">
       <class name="SeleniumTesting.ProductPurchase_TestNG">
-        <test-method is-config="true" signature="init()[pri:0, instance:SeleniumTesting.ProductPurchase_TestNG@408d971b]" started-at="2023-12-07T13:25:37 OMST" name="init" finished-at="2023-12-07T13:25:40 OMST" duration-ms="2857" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:SeleniumTesting.ProductPurchase_TestNG@408d971b]" started-at="2023-12-07T13:31:35 OMST" name="init" finished-at="2023-12-07T13:31:38 OMST" duration-ms="3279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="logIn()[pri:1, instance:SeleniumTesting.ProductPurchase_TestNG@408d971b]" started-at="2023-12-07T13:25:40 OMST" name="logIn" finished-at="2023-12-07T13:25:40 OMST" duration-ms="324" status="PASS">
+        <test-method signature="logIn()[pri:1, instance:SeleniumTesting.ProductPurchase_TestNG@408d971b]" started-at="2023-12-07T13:31:38 OMST" name="logIn" finished-at="2023-12-07T13:31:39 OMST" duration-ms="299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logIn -->
