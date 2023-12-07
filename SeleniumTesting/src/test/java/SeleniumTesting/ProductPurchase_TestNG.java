@@ -28,4 +28,17 @@ public class ProductPurchase_TestNG {
 		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("secret_sauce");
 		driver.findElement(By.xpath("//input[@id='login-button']")).click();
 	}
+	
+	@Test(priority=2)
+	public void addTocart() // add to cart "Test.allTheThings() T-Shirt (Red)"
+	{
+		driver.findElement(By.xpath("//button[@id='add-to-cart-test.allthethings()-t-shirt-(red)']")).click();
+	}
+	
+	@Test(priority=3)
+	public void viewProduct()
+	{
+		//view product 
+		driver.findElement(By.xpath("//a[@class='shopping_cart_link']")).click();
+	}
 }
