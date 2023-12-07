@@ -41,4 +41,30 @@ public class ProductPurchase_TestNG {
 		//view product 
 		driver.findElement(By.xpath("//a[@class='shopping_cart_link']")).click();
 	}
+	
+	@Test(priority=4)
+	public void checkOut()
+	{
+		//check out the product
+		driver.findElement(By.xpath("//button[@id='checkout']")).click();
+	}
+	@Test(priority=5)
+	public void checkoutInfo()
+	{
+		// fill up the necessary infromation
+		driver.findElement(By.xpath("//input[@id='first-name']")).sendKeys("Ishfaq");
+		driver.findElement(By.xpath("//input[@id='last-name']")).sendKeys("Rahman");
+		driver.findElement(By.xpath("//input[@id='postal-code']")).sendKeys("1229");
+		driver.findElement(By.xpath("//input[@id='continue']")).click();
+		
+		// finish the process
+		driver.findElement(By.xpath("//button[@id='finish']")).click();
+	}
+	
+	@AfterTest
+	public void quit()
+	{
+		driver.quit();
+		
+	}
 }
